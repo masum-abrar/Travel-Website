@@ -334,10 +334,70 @@ font-weight: 800;
 line-height: normal;
 
 }
+/* section 5 style */
+.section-5{
+    margin-top: 60px;
+}
+.section-5-image > img{
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+.section-5-content > h2 {
+    text-align: center;
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.section-5-content > *{
+    margin-bottom: 15px;
+}
+.section-5-content > h4 {
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
 
+}
 
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    height: 500px;
+}
+.footer-content{
+    /* background-color: #fc6e6e; */
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.first{
+    margin-top: 40px;
+}
+.footer-content * {
+    margin-bottom: 15px;
+}
+.footer-content > hr{
+    width: 60%;
+}
+.bottom-p{
+    margin-top: 40px;
+}
+.bottom-img{
+    margin-top: 20px;
+}
+.first{
+display: flex;
+align-items: center;
+gap: 10px;
+}
 
-
+/* Responsive - part started Here */
 /* '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
 @media screen and (max-width : 600px) {
 
@@ -411,5 +471,16 @@ line-height: normal;
     .travel{
         left: 280px;
     }
+    .first-p {
+        width: 50%;
+    }
+    .section-5{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-5-image > img{
+     width: 100%;
+    }
+    
 }
 
