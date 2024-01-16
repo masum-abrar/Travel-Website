@@ -516,14 +516,17 @@ gap: 10px;
     text-align: center;
 }
 
+
+
 /* Responsive - part started Here */
 /* '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
 @media screen and (max-width : 600px) {
 
     .full-head{
         max-width: 500px;
-        margin: 0px auto;
+        margin: 0px 26px;
       /* margin: 0px 15px; */
+      width: 550px;
     }
     header{
        /* margin-left:10px;
@@ -564,12 +567,12 @@ font-size: 30px;
         display: inline;
     }
     main{
-      
+        width: 550px;
             margin: 20px 30px;
        
       }
     .section-1{
-       
+       width: 100%;
         flex-direction: column;
     }
     .section1-content{
@@ -589,12 +592,13 @@ font-size: 30px;
        
     }
     .section2-image-2 > img{
-       width: 100%;
+       width: 550px;
     }
     .section2-image-3{
-     
+         
         flex-direction: column;
     }
+    
 
     .indo{
         left: 200px;
@@ -646,6 +650,10 @@ font-size: 30px;
     }
     .section-5-image > img{
      width: 100%;
+    }
+    footer{
+        width: 550px;
+        margin: 0px 26px;
     }
     
 }
