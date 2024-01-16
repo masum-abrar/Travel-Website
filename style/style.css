@@ -189,12 +189,85 @@ line-height: 26px; /* 162.5% */
 .section2-image-3 > img{
     width: 560px;
 }
+.mal{
+    display: inline-block;
+    position: relative;
+    top: 180px;
+    left: 200px;
+    color: #FFF;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+}
+.indo{
+    display: inline-block;
+    position:relative;
+    top: 210px;
+    left: 800px;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+}
+.sri{
+    display: inline-block;
+    position:relative;
+    top: 520px;
+    left: 0px;
+    color: #FFF;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+}
+.na{
+    display: inline-block;
+    position:relative;
+    top: 525px;
+    left: 270px;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+}
+.kas{
+    display: inline-block;
+    position:relative;
+    top: 525px;
+    left: 450px;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+}
+.bd{
+    display: inline-block;
+    position:relative;
+    bottom: 200px;
+    left: 150px;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+  
+ 
+}
 
+.ba{
+    display: inline-block;
+    position:relative;
+    bottom: 200px;
+    left: 500px;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+}
 
 /* sction 3 style started here */
 .section-3-card{
     display: flex;
     gap: 4%;
+
 }
 .card1{
     width: 48%;
@@ -402,7 +475,9 @@ gap: 10px;
 @media screen and (max-width : 600px) {
 
     .full-head{
-      margin: 0px 15px;
+        max-width: 500px;
+        margin: 0px auto;
+      /* margin: 0px 15px; */
     }
     header{
        /* margin-left:10px;
@@ -415,8 +490,9 @@ gap: 10px;
         flex-direction: column;
     }
     .input-section  {
+        margin-left: 5%;
         display: flex;
-        width: 287px;
+        width: 80%;
         padding: 16px;
         flex-direction: column;
         gap: 16px;
@@ -460,6 +536,37 @@ gap: 10px;
      
         flex-direction: column;
     }
+
+    .indo{
+        left: 200px;
+        top: 525px;
+    }
+    .sri{
+          left: 90px;
+        top: 925px;
+    }
+    .na{
+        left: 0px;
+     
+        top: 1275px;
+    }
+    .kas{
+       left: 200px;
+        top: 1750px;
+    }
+    .bd{
+      
+     left: 200px;
+       bottom: 500px;
+     
+    }
+    
+    .ba{
+        left: 60px;
+        bottom: 150px;
+    }
+    
+
     .section-3-content{
         display: flex;
         flex-direction: column;
