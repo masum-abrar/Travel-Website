@@ -13,11 +13,7 @@ border: none;
 padding: 16px 25px;
 color: #FFF;
 text-align: center;
-font-family: Mulish;
 font-size: 20px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
 }
 
 .full-head{
@@ -173,7 +169,7 @@ margin-bottom: 20px;
 .section2-content > h3{
     color: #131318;
 text-align: center;
-font-family: Mulish;
+
 font-size: 40px;
 font-style: normal;
 font-weight: 800;
@@ -182,7 +178,7 @@ line-height: normal;
 .section2-content > p{
     color: rgba(19, 19, 24, 0.70);
 text-align: center;
-font-family: Mulish;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -339,7 +335,7 @@ line-height: normal;
     margin-top: 30px;
     color: #131318;
 text-align: center;
-font-family: Mulish;
+
 font-size: 40px;
 font-style: normal;
 font-weight: 800;
@@ -348,7 +344,7 @@ line-height: normal;
 .section-3-content > p{
     color: rgba(19, 19, 24, 0.70);
 text-align: center;
-font-family: Mulish;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -382,7 +378,7 @@ padding-top: 50px;
 
 .section-4-content-left > h4{
     color: #131318;
-    font-family: Mulish;
+   
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
@@ -390,7 +386,7 @@ padding-top: 50px;
 }
 .section-4-content-left > p{
     color: #5A5A5D;
-    font-family: Mulish;
+ 
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -432,7 +428,7 @@ background: #FF5400;
 .travel > h5{
     color: #FFF;
 text-align: center;
-font-family: Mulish;
+
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -442,7 +438,7 @@ line-height: normal;
   
 .travel >h3{
     color: #FFF;
-font-family: Mulish;
+
 font-size: 32px;
 font-style: normal;
 font-weight: 800;
@@ -651,9 +647,17 @@ font-size: 30px;
     .section-5-image > img{
      width: 100%;
     }
+    .btn{
+       justify-content: center;
+    }
+    .travel > h3{
+           font-size: 22px;
+           text-align: center;
+           margin-bottom: 20px;
+}
     footer{
-        width: 550px;
-        margin: 0px 26px;
+        width: 600px;
+       
     }
     
 }
